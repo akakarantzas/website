@@ -101,7 +101,7 @@ export const DATA = {
       href: "https://pensatori-irrazionali.com/",
       badges: [],
       location: "International",
-      title: "Business Development & Sales Associate",
+      title: "Founding Member",
       logoUrl: "/pensatori.jpg",
       start: "Mar 2026",
       end: "Present",
