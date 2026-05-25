@@ -106,7 +106,7 @@ export const DATA = {
       start: "Mar 2026",
       end: "Present",
       description:
-        "Business development and international sales work for Pensatori Irrazionali, connecting growth, partnerships, and market-facing execution.",
+        "Founding Member of Pensatori Irrazionali, a creative house based in Europe, operating worldwide.",
     },
     {
       company: "AEVA Team",
@@ -114,11 +114,11 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Founding Member",
-      logoUrl: "/aeva-black.png",
+      logoUrl: "/aeva-white.png",
       start: "Oct 2019",
       end: "Present",
       description:
-        "Founding member of AEVA Team, contributing across technical direction, project execution, community presence, and product-oriented initiatives.",
+        "Founding member of AEVA Team. Contributed to AEVA Team’s operational growth and digital presence, supporting key decisions and the launch of its first website in 2019.",
     },
     {
       company: "Viohalco",
@@ -130,7 +130,7 @@ export const DATA = {
       start: "Oct 2025",
       end: "Nov 2025",
       description:
-        "IT internship experience supporting technical operations, internal systems, and software-related workflows.",
+        "Gained experience supporting technical operations, internal systems, and software-related workflows, including cloud platform administration with Microsoft Azure and Intune, user access management, SQL database and system log work, PowerShell-based task automation, and end-to-end deployment and configuration of enterprise communication systems such as Webex and IP telephony.",
     },
     {
       company: "YouTube",
@@ -138,16 +138,16 @@ export const DATA = {
       badges: [],
       location: "Self-employed",
       title: "Content Creator | @aevagnarly",
-      logoUrl: "/youtube.jpg",
+      logoUrl: "/youtube_logo.jfif",
       start: "Jan 2019",
       end: "Dec 2023",
       description:
-        "Built and scaled a YouTube channel to 12K+ subscribers and 1M+ views. Maintained a multi-year partnership with SteelSeries Greece.",
+        "Built and scaled a YouTube channel to 12K+ subscribers and 1M+ views, maintained a multi-year partnership with SteelSeries Greece.",
     },
   ],
   education: [
     {
-      school: "Hong Kong Baptist University",
+      school: "HKBU School of Business",
       href: "https://www.hkbu.edu.hk/",
       degree: "HKBU Summer 2026",
       logoUrl: "/hkbu.png",
@@ -155,9 +155,10 @@ export const DATA = {
       end: "2026",
     },
     {
-      school: "Deree - The American College of Greece",
+      school: "The American College of Greece",
       href: "https://www.acg.edu/",
-      degree: "Undergraduate studies",
+      degree:
+        "BSc Hons in Information Technology, with concentration in Intelligent Systems & Automation",
       logoUrl: "/acg.jpg",
       start: "",
       end: "Present",
@@ -186,7 +187,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/chicane.png",
       video: "",
     },
     {
@@ -210,7 +211,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/miami-2026.png",
       video: "",
     },
     {
@@ -234,7 +235,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/monaco-2025-gp.png",
       video: "",
     },
     {
@@ -252,7 +253,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/terrasset-mobile.png",
       video: "",
     },
     {
@@ -270,25 +271,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Spectral-SA Macro Placer (Initial Submission)",
-      href: "https://github.com/akakarantzas/spectral-sa-macro-placer",
-      dates: "Updated Apr 9, 2026",
-      active: true,
-      description:
-        "Macro-placement engine for the Partcl x Hudson River Trading Macro Placement Challenge 2026 using spectral graph initialization and simulated annealing.",
-      technologies: ["Python", "NumPy", "SciPy", "PyTorch"],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/akakarantzas/spectral-sa-macro-placer",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
+      image: "/hrt-x-partcl.png",
       video: "",
     },
     {
@@ -312,7 +295,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/car-valuation.jpeg",
       video: "",
     },
     {
@@ -335,7 +318,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/claude-code-counter-black-banner.png",
       video: "",
     },
     {
@@ -344,7 +327,7 @@ export const DATA = {
       dates: "Updated May 19, 2026",
       active: true,
       description:
-        "Console-based Python gym booking system with browsing, booking, cancellation, rescheduling, admin management, and local JSON storage.",
+        "Console-based Python gym booking system with browsing, booking, cancellation, rescheduling, and admin management.",
       technologies: ["Python", "JSON"],
       links: [
         {
@@ -353,36 +336,18 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Personal Website",
-      href: "https://github.com/akakarantzas/website",
-      dates: "Updated May 25, 2026",
-      active: true,
-      description:
-        "Personal website with an Obsidian-like knowledge graph, built from a modern Next.js portfolio template.",
-      technologies: ["TypeScript", "Next.js", "React", "Tailwind CSS", "MDX"],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/akakarantzas/website",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
+      image: "/deadlift_logo.png",
       video: "",
     },
   ],
   hackathons: [
     {
-      title: "Partcl x Hudson River Trading Macro Placement Challenge 2026",
+      title: "Hudson River Trading x Partcl Macro Placement Challenge 2026",
       dates: "2026",
       location: "Remote",
       description:
         "Built macro-placement optimization submissions using spectral initialization, simulated annealing, soft-overlap legalization, and numerical optimization techniques.",
-      image: "",
+      image: "/hrt-partcl.png",
       links: [
         {
           title: "Soft-Overlap SA",
@@ -397,12 +362,12 @@ export const DATA = {
       ],
     },
     {
-      title: "UniAI Makeathon 2026 / Talos Real Estate Beyond RGB",
+      title: "UniAI Makeathon 2026 / Real Estate Beyond RGB",
       dates: "2026",
       location: "On-site",
       description:
         "Created an analytics platform for land viability analysis using satellite data, infrastructure signals, and macroeconomic risk factors.",
-      image: "",
+      image: "/uniai.jfif",
       links: [
         {
           title: "Source",
