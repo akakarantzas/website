@@ -58,7 +58,7 @@ export default function Page() {
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-6">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
-            <h2 className="text-xl font-bold">Work Experience</h2>
+            <h2 className="text-xl font-bold">Experience</h2>
           </BlurFade>
           <BlurFade delay={BLUR_FADE_DELAY * 6}>
             <WorkSection />
@@ -104,7 +104,7 @@ export default function Page() {
                   </div>
                   <div className="flex items-center gap-1 text-xs tabular-nums text-muted-foreground text-right flex-none">
                     <span>
-                      {education.start} - {education.end}
+                      {[education.start, education.end].filter(Boolean).join(" - ")}
                     </span>
                   </div>
                 </Link>
