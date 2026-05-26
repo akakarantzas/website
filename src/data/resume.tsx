@@ -14,10 +14,9 @@ export const DATA = {
   url: "https://aeva.ae",
   location: "Athens, Greece",
   locationLink: "https://www.google.com/maps/place/Athens,+Greece",
-  description:
-    "AI/ML builder working on predictive modeling, optimization, data products, and end-to-end software systems.",
+  description: "Builder.",
   summary:
-    "Apostolos Kakarantzas is a Greece-based AI/ML-focused builder with experience across predictive modeling, optimization, applied software projects, data products, and full-stack ML applications.\n\nHis work includes Formula 1 race prediction tools, machine learning models, hackathon projects, developer utilities, and software engineering projects built with modern Python and web technologies. He is especially interested in building practical systems that connect data, models, and product execution.",
+    "I’m a Greek-Australian, carbon-based problem solver trying to make machines a little smarter.\n\nI’ve always been drawn to building things: businesses, communities, and now intelligent systems. At 14, that curiosity became my first business, a skateboard griptape brand where I imported products directly from manufacturing companies in Hong Kong and handled the core parts of running a small company before finishing school.\n\nA year later, I moved into content creation. From 15 to 18, I grew a YouTube channel to 12K+ subscribers and over 1M views, built an audience of 40K+ followers across social platforms, and livestreamed daily to hundreds of viewers.\n\nEventually, the same builder’s mindset led me to AI. What hooked me was the idea that code, data, and mathematics could be used to understand complex systems and build tools that learn, adapt, and solve real problems. Today, I’m focused on machine learning, applied AI, and end-to-end systems, from messy data and feature engineering to model training, optimization, and deployment.\n\nHong Kong first entered my life through business. Now, through my Summer 2026 study abroad program at the Hong Kong Baptist University, it has become part of my academic and personal journey too. I’m excited to experience the city from the inside: its culture, its people, and the innovation ecosystem that first caught my attention from thousands of kilometres away.\n\nDifferent chapters, same pattern: curiosity, execution, and a need to create something meaningful.",
   avatarUrl: "/apostolos.jpg",
   skills: [
     { name: "Python", icon: Python },
