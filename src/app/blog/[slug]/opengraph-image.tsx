@@ -3,10 +3,11 @@
 import { ImageResponse } from "next/og";
 import { allPosts } from "content-collections";
 import { DATA } from "@/data/resume";
+import { formatDate } from "@/lib/utils";
 
 export const runtime = "edge";
 
-export const alt = "Blog Post";
+export const alt = "blog post";
 export const size = {
     width: 1200,
     height: 630,
@@ -142,7 +143,7 @@ export default async function Image({
                             <div style={styles.wrapper}>
                                 {imageUrl && (
                                     <div style={styles.imageSection}>
-                                        <img src={imageUrl} alt="Blog Post" style={styles.image} />
+                                        <img src={imageUrl} alt="blog post" style={styles.image} />
                                     </div>
                                 )}
                                 <div style={styles.mainContainer}>
@@ -170,14 +171,7 @@ export default async function Image({
 
         const title = post.title;
         const description = post.summary || "";
-        const publishedDate = post.publishedAt
-            ? new Date(post.publishedAt).toLocaleDateString("en-US", {
-                year: "numeric",
-                month: "long",
-                day: "numeric",
-                timeZone: "UTC",
-            })
-            : "";
+        const publishedDate = post.publishedAt ? formatDate(post.publishedAt) : "";
 
         return new ImageResponse(
             (
@@ -236,5 +230,3 @@ export default async function Image({
         );
     }
 }
-
-
