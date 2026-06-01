@@ -252,7 +252,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/terrasset-mobile.png",
+      image: "/terra-close.png",
       video: "",
     },
     {
