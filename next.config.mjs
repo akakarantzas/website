@@ -1,4 +1,4 @@
-import { createContentCollectionPlugin } from "@content-collections/next";
+import { withContentCollections } from "@content-collections/next";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -29,10 +29,6 @@ const nextConfig = {
     ];
   },
 };
-
-const withContentCollections = createContentCollectionPlugin({
-  configPath: "././content-collections.ts",
-});
 
 // withContentCollections must be the outermost plugin
 export default withContentCollections(nextConfig);
