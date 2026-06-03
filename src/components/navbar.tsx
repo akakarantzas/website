@@ -10,6 +10,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
@@ -20,21 +21,15 @@ export default function Navbar() {
         className="z-50 pointer-events-auto relative h-14 p-1.5 max-w-[calc(100vw-1rem)] mx-auto flex gap-1.5 border bg-card/90 backdrop-blur-3xl shadow-[0_0_10px_3px] shadow-primary/5"
       >
         {DATA.navbar.map((item) => {
-          const isExternal = item.href.startsWith("http");
           const Icon = item.icon;
           return (
             <Tooltip key={item.href}>
               <TooltipTrigger asChild>
-                <a
-                  href={item.href}
-                  target={isExternal ? "_blank" : undefined}
-                  rel={isExternal ? "noopener noreferrer" : undefined}
-                  aria-label={item.label}
-                >
+                <Link href={item.href} aria-label={item.label}>
                   <DockIcon className="rounded-3xl cursor-pointer size-full bg-background p-0 text-muted-foreground hover:text-foreground hover:bg-muted backdrop-blur-3xl border border-border transition-colors">
                     <Icon className="size-full rounded-sm overflow-hidden object-contain" />
                   </DockIcon>
-                </a>
+                </Link>
               </TooltipTrigger>
               <TooltipContent
                 side="top"
