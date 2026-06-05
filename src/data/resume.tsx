@@ -341,7 +341,27 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "Hudson River Trading x Partcl Macro Placement Challenge 2026",
+      title: "Florent Venture Partners x Panathēnea Hackathon Finalist",
+      dates: "2026",
+      location: "On-site",
+      description:
+        "Selected from 100+ applicants as one of 25 teams admitted to the Florent VC x Panathēnea Hackathon and advanced to the top 3 finalist stage.",
+      detail:
+        "Built Syntheci, an AI-powered maritime operations workspace enabling cited document retrieval, voyage-risk monitoring, and workflow automation for shipping teams.",
+      note:
+        "Judged by former GitHub CEO Thomas Dohmke, Google Maps co-founder Lars Rasmussen, and Siri founding CPO Mads Rydahl.",
+      image: "/florent-logo.jpg",
+      featuredImage: "/florent-hackathon.jpg",
+      links: [
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/socratesomiliadis/syntheci-shipping",
+        },
+      ],
+    },
+    {
+      title: "Hudson River Trading x Partcl Macro Placement Challenge",
       dates: "2026",
       location: "Remote",
       description:
@@ -361,7 +381,7 @@ export const DATA = {
       ],
     },
     {
-      title: "UniAI Makeathon 2026 / Real Estate Beyond RGB",
+      title: "UniAI Makeathon",
       dates: "2026",
       location: "On-site",
       description:

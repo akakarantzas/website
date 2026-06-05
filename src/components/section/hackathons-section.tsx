@@ -54,6 +54,23 @@ export default function HackathonsSection() {
                     {hackathon.description}
                   </p>
                 )}
+                {"detail" in hackathon && hackathon.detail && (
+                  <p className="text-sm text-muted-foreground leading-relaxed wrap-break-word">
+                    {hackathon.detail}
+                  </p>
+                )}
+                {"note" in hackathon && hackathon.note && (
+                  <p className="text-sm text-muted-foreground leading-relaxed wrap-break-word">
+                    {hackathon.note}
+                  </p>
+                )}
+                {"featuredImage" in hackathon && hackathon.featuredImage && (
+                  <img
+                    src={hackathon.featuredImage}
+                    alt={`${hackathon.title} preview`}
+                    className="mt-2 w-full rounded-lg border border-border bg-card object-cover"
+                  />
+                )}
                 {hackathon.links && hackathon.links.length > 0 && (
                   <div className="mt-1 flex flex-row flex-wrap items-start gap-2">
                     {hackathon.links.map((link, idx) => (
