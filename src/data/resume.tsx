@@ -17,7 +17,7 @@ export const DATA = {
   description: "Builder.",
   summary:
     "I'm a Greek-Australian Homo sapiens trying to make machines a little smarter.\n\nI've always been drawn to building things: businesses, communities, and now intelligent systems. At 14, that curiosity became my first business: a skateboard griptape brand where I imported products directly from manufacturing companies in Hong Kong and handled the core parts of running a small company before finishing school.\n\nA year later, I moved into content creation. From 15 to 18, I grew a YouTube channel to 12K+ subscribers and over 1M views, built an audience of 40K+ followers across social platforms, and livestreamed daily to hundreds of viewers. Along the way, I met Themis “Reit” Chrysafidis and became a founding member of Aeva, a Dubai-based group of companies focused on creativity, technology, and cultural innovation.\n\nEventually, the same builder’s mindset led me to AI. Today, I'm focused on machine learning, applied AI, and end-to-end systems, from messy data and feature engineering to model training, optimization, and deployment.\n\nHong Kong first entered my life through business. Now, through my Summer 2026 study abroad program at Hong Kong Baptist University, it has become part of my academic and personal journey too. I'm excited to experience the city from the inside: its culture, its people, and the innovation ecosystem that first caught my attention from thousands of kilometres away.\n\nDifferent chapters, same pattern: curiosity, execution, and a need to create something meaningful.\n\nWhen I'm not coding, you'll find me golfing, playing tennis, or watching F1. I thought machine learning models were unpredictable until I became a Ferrari fan.",
-  avatarUrl: "/apostolos.jpg",
+  avatarUrl: "/me.jfif",
   skills: [
     { name: "Python", icon: Python },
     { name: "Machine Learning", icon: Python },
@@ -96,6 +96,30 @@ export const DATA = {
 
   work: [
     {
+      company: "The American College of Greece",
+      href: "https://www.acg.edu/",
+      badges: [],
+      location: "Athens, Greece",
+      title: "Research Assistant",
+      logoUrl: "/acg.jpg",
+      start: "May 2026",
+      end: "Present",
+      description:
+        "Conducting research at the Artificial Intelligence Lab, supervised by Dr. Ioannis Christou.\nProjects include multilingual streaming ASR with NVIDIA Nemotron 3.5 (fine-tuning, latency benchmarking, and GPU profiling on DGX Spark), combinatorial optimization for VLSI macro placement and AI applications in domain-specific systems.",
+    },
+    {
+      company: "Viohalco",
+      href: "https://www.viohalco.com/",
+      badges: [],
+      location: "Greece",
+      title: "IT Intern",
+      logoUrl: "/viohalco.webp",
+      start: "Oct 2025",
+      end: "Nov 2025",
+      description:
+        "• Automated user provisioning and device management workflows across Microsoft Azure and Intune using PowerShell, reducing manual IT operations overhead.\n• Supported end-to-end Webex and IP telephony rollout, contributing to configuration, integration testing, and go-live across 50+ endpoints.\n• Administered SQL server databases and system log pipelines supporting enterprise-scale infrastructure across multiple business units.",
+    },
+    {
       company: "Pensatori Irrazionali",
       href: "https://pensatori-irrazionali.com/",
       badges: [],
@@ -120,18 +144,6 @@ export const DATA = {
         "Founding member of AEVA Team. Contributed to AEVA Team’s operational growth and digital presence, supporting key decisions and the launch of its first website in 2019.",
     },
     {
-      company: "Viohalco",
-      href: "https://www.viohalco.com/",
-      badges: [],
-      location: "Greece",
-      title: "IT Intern",
-      logoUrl: "/viohalco.webp",
-      start: "Oct 2025",
-      end: "Nov 2025",
-      description:
-        "Gained experience supporting technical operations, internal systems, and software-related workflows, including cloud platform administration with Microsoft Azure and Intune, user access management, SQL database and system log work, PowerShell-based task automation, and end-to-end deployment and configuration of enterprise communication systems such as Webex and IP telephony.",
-    },
-    {
       company: "YouTube",
       href: "https://www.youtube.com/@aevagnarly",
       badges: [],
@@ -146,12 +158,12 @@ export const DATA = {
   ],
   education: [
     {
-      school: "HKBU School of Business",
+      school: "Hong Kong Baptist University",
       href: "https://www.hkbu.edu.hk/",
-      degree: "HKBU Summer 2026",
+      degree: "Summer Programme 2026",
       logoUrl: "/hkbu.png",
       start: "",
-      end: "2026",
+      end: "",
     },
     {
       school: "The American College of Greece",
