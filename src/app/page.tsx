@@ -123,14 +123,14 @@ export default function Page() {
           <TechStackSection />
         </BlurFade>
       </section>
-      <section id="projects">
+      <section id="hackathons">
         <BlurFade delay={BLUR_FADE_DELAY * 11}>
-          <ProjectsSection />
+          <HackathonsSection />
         </BlurFade>
       </section>
-      <section id="hackathons">
+      <section id="projects">
         <BlurFade delay={BLUR_FADE_DELAY * 13}>
-          <HackathonsSection />
+          <ProjectsSection />
         </BlurFade>
       </section>
       <section id="contact">

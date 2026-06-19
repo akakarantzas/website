@@ -202,73 +202,7 @@ export const DATA = {
       video: "",
     },
     {
-      title: "F1 2026 Miami GP Winner Prediction",
-      href: "https://github.com/akakarantzas/f1-2026-miami-grand-prix-winner-prediction",
-      dates: "Updated May 6, 2026",
-      active: true,
-      description:
-        "Gradient Boosting model for race winner prediction using historical performance data and driver/team form features.",
-      technologies: [
-        "Python",
-        "FastF1",
-        "scikit-learn",
-        "Gradient Boosting",
-        "pandas",
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/akakarantzas/f1-2026-miami-grand-prix-winner-prediction",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/miami-2026.png",
-      video: "",
-    },
-    {
-      title: "F1 2025 Monaco GP Winner Prediction",
-      href: "https://github.com/akakarantzas/f1-2025-monaco-grand-prix-winner-prediction",
-      dates: "Updated May 6, 2026",
-      active: true,
-      description:
-        "Random Forest model trained on historical race, qualifying, pit stop, lap time, driver, and constructor data.",
-      technologies: [
-        "Python",
-        "scikit-learn",
-        "Random Forest",
-        "pandas",
-        "Jupyter Notebook",
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/akakarantzas/f1-2025-monaco-grand-prix-winner-prediction",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/monaco-2025-gp.png",
-      video: "",
-    },
-    {
-      title: "Terrasset / UniAI Makeathon 2026",
-      href: "https://github.com/akakarantzas/makeathon-2026-talos-real-estate-beyond-rgb",
-      dates: "Updated May 17, 2026",
-      active: true,
-      description:
-        "Analytics platform evaluating land viability using satellite data, infrastructure signals, and macroeconomic risk factors.",
-      technologies: ["Python", "JavaScript", "FastAPI", "React"],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/akakarantzas/makeathon-2026-talos-real-estate-beyond-rgb",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/terra-close.png",
-      video: "",
-    },
-    {
-      title: "Soft-Overlap SA Macro Placer (Final Submission)",
+      title: "Soft-Overlap SA Macro Placer",
       href: "https://github.com/akakarantzas/soft-overlap-sa-macro-placer",
       dates: "Updated May 21, 2026",
       active: true,
@@ -283,30 +217,6 @@ export const DATA = {
         },
       ],
       image: "/hrt-x-partcl.png",
-      video: "",
-    },
-    {
-      title: "Vehicle Price Prediction",
-      href: "https://github.com/akakarantzas/vehicle-price-prediction",
-      dates: "Updated May 6, 2026",
-      active: true,
-      description:
-        "ML project predicting vehicle selling prices and comparing Linear Regression, Random Forest, and XGBoost models.",
-      technologies: [
-        "Python",
-        "scikit-learn",
-        "XGBoost",
-        "pandas",
-        "Jupyter Notebook",
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/akakarantzas/vehicle-price-prediction",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/car-valuation.jpeg",
       video: "",
     },
     {
@@ -339,7 +249,7 @@ export const DATA = {
       active: true,
       description:
         "Console-based Python gym booking system with browsing, booking, cancellation, rescheduling, and admin management.",
-      technologies: ["Python", "JSON"],
+      technologies: ["Python"],
       links: [
         {
           type: "Source",
@@ -381,14 +291,9 @@ export const DATA = {
       image: "/hrt-partcl.png",
       links: [
         {
-          title: "Soft-Overlap SA",
+          title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/akakarantzas/soft-overlap-sa-macro-placer",
-        },
-        {
-          title: "Spectral-SA",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/akakarantzas/spectral-sa-macro-placer",
         },
       ],
     },

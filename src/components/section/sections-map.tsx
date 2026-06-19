@@ -36,8 +36,8 @@ const sectionGroups = [
     count: 2,
     icon: Folder,
     items: [
-      { label: "projects", href: "#projects" },
       { label: "hackathons", href: "#hackathons" },
+      { label: "projects", href: "#projects" },
     ],
   },
 ];
