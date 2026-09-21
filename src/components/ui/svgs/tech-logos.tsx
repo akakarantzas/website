@@ -1,5 +1,26 @@
 import type { SVGProps } from "react";
 
+const Cplusplus = (props: SVGProps<SVGSVGElement>) => (
+  <svg {...props} viewBox="0 0 32 32" fill="none">
+    <rect x="2" y="4" width="28" height="24" rx="5" fill="#00599C" />
+    <text x="16" y="21" textAnchor="middle" fontSize="12" fontWeight="700" fill="white">C++</text>
+  </svg>
+);
+
+const Rust = (props: SVGProps<SVGSVGElement>) => (
+  <svg {...props} viewBox="0 0 32 32" fill="none">
+    <circle cx="16" cy="16" r="14" fill="#B7410E" />
+    <text x="16" y="22" textAnchor="middle" fontSize="20" fontWeight="700" fill="white">R</text>
+  </svg>
+);
+
+const Numba = (props: SVGProps<SVGSVGElement>) => (
+  <svg {...props} viewBox="0 0 32 32" fill="none">
+    <rect x="2" y="4" width="28" height="24" rx="5" fill="#1D4E89" />
+    <text x="16" y="22" textAnchor="middle" fontSize="20" fontWeight="700" fill="white">N</text>
+  </svg>
+);
+
 const Pytorch = (props: SVGProps<SVGSVGElement>) => (
   <svg {...props} viewBox="0 0 32 32" fill="none">
     <path
@@ -131,12 +152,15 @@ const Transformers = (props: SVGProps<SVGSVGElement>) => (
 );
 
 export {
+  Cplusplus,
   Fastapi,
   Javascript,
+  Numba,
   Numpy,
   Pandas,
   Pytorch,
   Redis,
+  Rust,
   ScikitLearn,
   Sql,
   TailwindCss,

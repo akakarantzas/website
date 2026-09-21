@@ -9,16 +9,18 @@ import { Python } from "@/components/ui/svgs/python";
 import { ReactLight } from "@/components/ui/svgs/reactLight";
 import { Typescript } from "@/components/ui/svgs/typescript";
 import {
+  Cplusplus,
   Fastapi,
   Javascript,
+  Numba,
   Numpy,
   Pandas,
   Pytorch,
   Redis,
+  Rust,
   ScikitLearn,
   Sql,
   TailwindCss,
-  Tensorflow,
   Threejs,
   Transformers,
 } from "@/components/ui/svgs/tech-logos";
@@ -35,58 +37,31 @@ type TechLogo = {
   icon: ComponentType<SVGProps<SVGSVGElement>>;
 };
 
-const technologies: TechLogo[] = [
-  { name: "Python", icon: Python },
-  { name: "PyTorch", icon: Pytorch },
-  { name: "Transformers", icon: Transformers },
-  { name: "TensorFlow", icon: Tensorflow },
-  { name: "NumPy", icon: Numpy },
-  { name: "Pandas", icon: Pandas },
-  { name: "Scikit-learn", icon: ScikitLearn },
-  { name: "Java", icon: Java },
-  { name: "SQL", icon: Sql },
-  { name: "FastAPI", icon: Fastapi },
-  { name: "Node.js", icon: Nodejs },
-  { name: "Docker", icon: Docker },
-  { name: "Git", icon: GitBranch },
-  { name: "PostgreSQL", icon: Postgresql },
-  { name: "Redis", icon: Redis },
-  { name: "TypeScript", icon: Typescript },
-  { name: "JavaScript", icon: Javascript },
-  { name: "React", icon: ReactLight },
-  { name: "Next.js", icon: NextjsIconDark },
-  { name: "Tailwind CSS", icon: TailwindCss },
-  { name: "Three.js", icon: Threejs },
-];
-
-const firstRow = technologies.slice(0, 7);
-const secondRow = technologies.slice(7);
-
 const categories: Array<{
   title: string;
-  items?: TechLogo[];
-  sections?: Array<{
-    title: string;
-    items: TechLogo[];
-  }>;
+  items: TechLogo[];
 }> = [
   {
-    title: "ML & AI Frameworks",
+    title: "Languages",
     items: [
-      { name: "PyTorch", icon: Pytorch },
-      { name: "Transformers", icon: Transformers },
-      { name: "TensorFlow", icon: Tensorflow },
-      { name: "NumPy", icon: Numpy },
-      { name: "Pandas", icon: Pandas },
-      { name: "Scikit-learn", icon: ScikitLearn },
+      { name: "Python", icon: Python },
+      { name: "C++", icon: Cplusplus },
+      { name: "TypeScript", icon: Typescript },
+      { name: "JavaScript", icon: Javascript },
+      { name: "SQL", icon: Sql },
+      { name: "Java", icon: Java },
+      { name: "Rust", icon: Rust },
     ],
   },
   {
-    title: "languages",
+    title: "ML, AI & Computing",
     items: [
-      { name: "Python", icon: Python },
-      { name: "Java", icon: Java },
-      { name: "SQL", icon: Sql },
+      { name: "PyTorch", icon: Pytorch },
+      { name: "Transformers", icon: Transformers },
+      { name: "Scikit-learn", icon: ScikitLearn },
+      { name: "NumPy", icon: Numpy },
+      { name: "Pandas", icon: Pandas },
+      { name: "Numba", icon: Numba },
     ],
   },
   {
@@ -101,27 +76,19 @@ const categories: Array<{
     ],
   },
   {
-    title: "frontend",
-    sections: [
-      {
-        title: "",
-        items: [
-          { name: "TypeScript", icon: Typescript },
-          { name: "JavaScript", icon: Javascript },
-        ],
-      },
-      {
-        title: "frameworks & libraries",
-        items: [
-          { name: "React", icon: ReactLight },
-          { name: "Next.js", icon: NextjsIconDark },
-          { name: "Three.js", icon: Threejs },
-          { name: "Tailwind CSS", icon: TailwindCss },
-        ],
-      },
+    title: "Frontend",
+    items: [
+      { name: "React", icon: ReactLight },
+      { name: "Next.js", icon: NextjsIconDark },
+      { name: "Tailwind CSS", icon: TailwindCss },
+      { name: "Three.js", icon: Threejs },
     ],
   },
 ];
+
+const technologies = categories.flatMap((category) => category.items);
+const firstRow = technologies.slice(0, Math.ceil(technologies.length / 2));
+const secondRow = technologies.slice(firstRow.length);
 
 function TechLogoItem({ item }: { item: TechLogo }) {
   const Icon = item.icon;
@@ -219,49 +186,20 @@ export default function TechStackSection() {
                 <h3 className="mb-3 text-xs font-semibold uppercase tracking-[0.16em] text-muted-foreground">
                   {category.title}
                 </h3>
-                {category.items && (
-                  <div className="flex flex-wrap gap-2">
-                    {category.items.map((item) => {
-                      const Icon = item.icon;
-                      return (
-                        <div
-                          key={item.name}
-                          className="inline-flex h-8 items-center gap-2 rounded-md border border-border bg-muted/30 px-3 text-sm text-foreground"
-                        >
-                          <Icon className="size-4 shrink-0" aria-hidden />
-                          <span>{item.name}</span>
-                        </div>
-                      );
-                    })}
-                  </div>
-                )}
-                {category.sections && (
-                  <div className="flex flex-col gap-4">
-                    {category.sections.map((section, index) => (
-                      <div key={`${category.title}-${index}`} className="flex flex-col gap-2">
-                        {section.title && (
-                          <h4 className="text-[11px] font-semibold uppercase tracking-[0.14em] text-muted-foreground/80">
-                            {section.title}
-                          </h4>
-                        )}
-                        <div className="flex flex-wrap gap-2">
-                          {section.items.map((item) => {
-                            const Icon = item.icon;
-                            return (
-                              <div
-                                key={item.name}
-                                className="inline-flex h-8 items-center gap-2 rounded-md border border-border bg-muted/30 px-3 text-sm text-foreground"
-                              >
-                                <Icon className="size-4 shrink-0" aria-hidden />
-                                <span>{item.name}</span>
-                              </div>
-                            );
-                          })}
-                        </div>
+                <div className="flex flex-wrap gap-2">
+                  {category.items.map((item) => {
+                    const Icon = item.icon;
+                    return (
+                      <div
+                        key={item.name}
+                        className="inline-flex h-8 items-center gap-2 rounded-md border border-border bg-muted/30 px-3 text-sm text-foreground"
+                      >
+                        <Icon className="size-4 shrink-0" aria-hidden />
+                        <span>{item.name}</span>
                       </div>
-                    ))}
-                  </div>
-                )}
+                    );
+                  })}
+                </div>
               </div>
             ))}
           </div>
