@@ -160,10 +160,10 @@ export const DATA = {
     {
       school: "Hong Kong Baptist University",
       href: "https://www.hkbu.edu.hk/",
-      degree: "Summer Programme 2026",
+      degree: "Summer Programme",
       logoUrl: "/hkbu.png",
-      start: "",
-      end: "",
+      start: "Jul 2026",
+      end: "Aug 2026",
     },
     {
       school: "The American College of Greece",
