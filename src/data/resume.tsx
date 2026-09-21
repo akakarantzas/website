@@ -289,6 +289,7 @@ export const DATA = {
       description:
         "Built macro-placement optimization submissions using spectral initialization, simulated annealing, soft-overlap legalization, and numerical optimization techniques.",
       image: "/hrt-partcl.png",
+      featuredImage: "/hrt.jpg",
       links: [
         {
           title: "Source",
