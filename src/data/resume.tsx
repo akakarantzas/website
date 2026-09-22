@@ -117,7 +117,7 @@ export const DATA = {
       start: "Oct 2025",
       end: "Nov 2025",
       description:
-        "• Automated user provisioning and device management workflows across Microsoft Azure and Intune using PowerShell, reducing manual IT operations overhead.\n• Supported end-to-end Webex and IP telephony rollout, contributing to configuration, integration testing, and go-live across 50+ endpoints.\n• Administered SQL server databases and system log pipelines supporting enterprise-scale infrastructure across multiple business units.",
+        "• Automated user provisioning and device management workflows using PowerShell, Azure, and Intune across 30+ managed devices, reducing repetitive IT operations and improving onboarding efficiency\n• Maintained SQL Server databases and system log pipelines across multiple business units, improving infrastructure visibility and reliability for enterprise systems\n• Enabled the successful deployment of Webex and IP telephony across 50+ endpoints, improving communication infrastructure readiness by validating integrations and troubleshooting deployment issues",
     },
     {
       company: "Pensatori Irrazionali",
