@@ -158,21 +158,21 @@ export const DATA = {
   ],
   education: [
     {
+      school: "The American College of Greece",
+      href: "https://www.acg.edu/",
+      degree:
+        "BSc in Information Technology (Intelligent Systems & Automation)",
+      logoUrl: "/acg.jpg",
+      start: "",
+      end: "Present",
+    },
+    {
       school: "Hong Kong Baptist University",
       href: "https://www.hkbu.edu.hk/",
       degree: "Summer Programme",
       logoUrl: "/hkbu.png",
       start: "Jul 2026",
       end: "Aug 2026",
-    },
-    {
-      school: "The American College of Greece",
-      href: "https://www.acg.edu/",
-      degree:
-        "BSc Hons in Information Technology, with concentration in Intelligent Systems & Automation",
-      logoUrl: "/acg.jpg",
-      start: "",
-      end: "Present",
     },
   ],
   projects: [
