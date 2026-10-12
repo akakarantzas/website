@@ -151,7 +151,31 @@ const Transformers = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
+const Aws = (props: SVGProps<SVGSVGElement>) => (
+  <svg {...props} viewBox="0 0 32 32" fill="none">
+    <rect x="2" y="4" width="28" height="24" rx="5" fill="#232F3E" />
+    <text x="16" y="21" textAnchor="middle" fontSize="11" fontWeight="700" fill="white">AWS</text>
+  </svg>
+);
+
+const Azure = (props: SVGProps<SVGSVGElement>) => (
+  <svg {...props} viewBox="0 0 32 32" fill="none">
+    <rect x="2" y="4" width="28" height="24" rx="5" fill="#0078D4" />
+    <text x="16" y="21" textAnchor="middle" fontSize="12" fontWeight="700" fill="white">Az</text>
+  </svg>
+);
+
+const Linux = (props: SVGProps<SVGSVGElement>) => (
+  <svg {...props} viewBox="0 0 32 32" fill="none">
+    <rect x="2" y="4" width="28" height="24" rx="5" fill="#3B3B3B" />
+    <text x="16" y="21" textAnchor="middle" fontSize="12" fontWeight="700" fill="white">Lx</text>
+  </svg>
+);
+
 export {
+  Aws,
+  Azure,
+  Linux,
   Cplusplus,
   Fastapi,
   Javascript,

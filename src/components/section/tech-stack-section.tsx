@@ -9,9 +9,12 @@ import { Python } from "@/components/ui/svgs/python";
 import { ReactLight } from "@/components/ui/svgs/reactLight";
 import { Typescript } from "@/components/ui/svgs/typescript";
 import {
+  Aws,
+  Azure,
   Cplusplus,
   Fastapi,
   Javascript,
+  Linux,
   Numba,
   Numpy,
   Pandas,
@@ -65,7 +68,7 @@ const categories: Array<{
     ],
   },
   {
-    title: "Backend & DevOps",
+    title: "Backend & Cloud",
     items: [
       { name: "FastAPI", icon: Fastapi },
       { name: "Node.js", icon: Nodejs },
@@ -73,6 +76,9 @@ const categories: Array<{
       { name: "Git", icon: GitBranch },
       { name: "PostgreSQL", icon: Postgresql },
       { name: "Redis", icon: Redis },
+      { name: "AWS", icon: Aws },
+      { name: "Azure", icon: Azure },
+      { name: "Linux", icon: Linux },
     ],
   },
   {
