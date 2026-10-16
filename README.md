@@ -1,6 +1,6 @@
 # Portfolio
 
-Personal portfolio built with Next.js 16.
+Personal portfolio built with Next.js 16. Live at [akakarantzas.com](https://akakarantzas.com).
 
 ## Tech Stack
 
