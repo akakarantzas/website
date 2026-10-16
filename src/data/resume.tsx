@@ -100,9 +100,9 @@ export const DATA = {
       href: "https://www.acg.edu/",
       badges: [],
       location: "Athens, Greece",
-      title: "Research Assistant",
+      title: "Artificial Intelligence Research Assistant",
       logoUrl: "/acg.jpg",
-      start: "May 2026",
+      start: "Apr 2026",
       end: "Present",
       description:
         "Conducting research at the Artificial Intelligence Lab, supervised by Dr. Ioannis Christou.\nProjects include multilingual streaming ASR with NVIDIA Nemotron 3.5 (fine-tuning, latency benchmarking, and GPU profiling on DGX Spark), combinatorial optimization for VLSI macro placement and AI applications in domain-specific systems.",
@@ -112,36 +112,34 @@ export const DATA = {
       href: "https://www.viohalco.com/",
       badges: [],
       location: "Greece",
-      title: "IT Intern",
+      title: "Software Engineer Intern",
       logoUrl: "/viohalco.webp",
       start: "Oct 2025",
       end: "Nov 2025",
       description:
-        "• Automated user provisioning and device management workflows using PowerShell, Azure, and Intune across 30+ managed devices, reducing repetitive IT operations and improving onboarding efficiency\n• Maintained SQL Server databases and system log pipelines across multiple business units, improving infrastructure visibility and reliability for enterprise systems\n• Enabled the successful deployment of Webex and IP telephony across 50+ endpoints, improving communication infrastructure readiness by validating integrations and troubleshooting deployment issues",
+        "• Implemented Python REST API integrations with automated tests and structured logging for 50+ devices\n• Wrote and optimized SQL queries for logging pipelines, reducing troubleshooting time by ~30%\n• Automated user provisioning and device management across 30+ devices using PowerShell, Microsoft Azure and Intune, reducing manual provisioning time by 40%",
     },
     {
       company: "Pensatori Irrazionali",
       href: "https://pensatori-irrazionali.com/",
       badges: [],
       location: "International",
-      title: "Founding Member",
+      title: "Founding Engineer",
       logoUrl: "/pensatori.jpg",
       start: "Mar 2026",
       end: "Present",
-      description:
-        "Founding Member of Pensatori Irrazionali, a creative house based in Europe, operating worldwide.",
+      description: "",
     },
     {
       company: "AEVA Team",
       href: "https://aevateam.com/",
       badges: [],
       location: "Remote",
-      title: "Founding Member",
+      title: "Co-Founder",
       logoUrl: "/aeva-white.png",
       start: "Oct 2019",
       end: "Present",
-      description:
-        "Founding member of AEVA Team. Contributed to AEVA Team’s operational growth and digital presence, supporting key decisions and the launch of its first website in 2019.",
+      description: "",
     },
     {
       company: "YouTube",
@@ -179,7 +177,7 @@ export const DATA = {
     {
       title: "ChicaneAI",
       href: "https://github.com/akakarantzas/chicane-ai",
-      dates: "Updated May 25, 2026",
+      dates: "Updated Oct 14, 2026",
       active: true,
       description:
         "AI-powered Formula 1 analytics and race prediction web app with race predictions, head-to-head driver comparisons, prediction history, and a season calendar.",
@@ -204,7 +202,7 @@ export const DATA = {
     {
       title: "Soft-Overlap SA Macro Placer",
       href: "https://github.com/akakarantzas/soft-overlap-sa-macro-placer",
-      dates: "Updated May 21, 2026",
+      dates: "Updated May 22, 2026",
       active: true,
       description:
         "Macro-placement submission using soft-overlap legalization and simulated annealing refinement.",
@@ -245,7 +243,7 @@ export const DATA = {
     {
       title: "Deadlift - Gym Booking System",
       href: "https://github.com/akakarantzas/deadlift-gym-booking-system",
-      dates: "Updated May 19, 2026",
+      dates: "Updated Jun 22, 2026",
       active: true,
       description:
         "Console-based Python gym booking system with browsing, booking, cancellation, rescheduling, and admin management.",
@@ -263,8 +261,8 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "Florent Venture Partners x Panathēnea Hackathon Finalist",
-      dates: "2026",
+      title: "3rd Place, Florent Venture Partners x Panathēnea Hackathon",
+      dates: "May 2026 - Jun 2026",
       location: "On-site",
       description:
         "Selected from 100+ applicants as one of 25 teams admitted to the Florent VC x Panathēnea Hackathon and advanced to the top 3 finalist stage.",
@@ -284,7 +282,7 @@ export const DATA = {
     },
     {
       title: "Hudson River Trading x Partcl Macro Placement Challenge",
-      dates: "2026",
+      dates: "Apr 2026 - May 2026",
       location: "Remote",
       description:
         "Built macro-placement optimization submissions using spectral initialization, simulated annealing, soft-overlap legalization, and numerical optimization techniques.",
@@ -300,7 +298,7 @@ export const DATA = {
     },
     {
       title: "UniAI Makeathon",
-      dates: "2026",
+      dates: "May 2026",
       location: "On-site",
       description:
         "Created an analytics platform for land viability analysis using satellite data, infrastructure signals, and macroeconomic risk factors.",
@@ -312,6 +310,16 @@ export const DATA = {
           href: "https://github.com/akakarantzas/makeathon-2026-talos-real-estate-beyond-rgb",
         },
       ],
+    },
+    {
+      title: "1st Place, Netcompany Hackathon",
+      dates: "Feb 2025",
+      location: "",
+      description: "Autonomous AI Agents track",
+      detail:
+        "Led a team of three to win 1st place and a €3,000 prize among 37 teams and 110+ undergraduate participants.",
+      image: "/netcompany.png",
+      links: [],
     },
   ],
 } as const;
