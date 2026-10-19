@@ -39,14 +39,17 @@ export default function WorkSection() {
           value={work.company}
           className="w-full border-b-0 grid gap-2"
         >
-          <AccordionTrigger className="hover:no-underline p-0 cursor-pointer transition-colors rounded-none group [&>svg]:hidden">
+          <AccordionTrigger
+            disabled={!work.description}
+            className="hover:no-underline p-0 cursor-pointer disabled:cursor-default transition-colors rounded-none group [&>svg]:hidden"
+          >
             <div className="flex items-center gap-x-3 justify-between w-full text-left">
               <div className="flex items-center gap-x-3 flex-1 min-w-0">
                 <LogoImage src={work.logoUrl} alt={work.company} />
                 <div className="flex-1 min-w-0 gap-0.5 flex flex-col">
                   <div className="font-semibold leading-none flex items-center gap-2">
                     {work.company}
-                    <span className="relative inline-flex items-center w-3.5 h-3.5">
+                    <span className="relative inline-flex items-center w-3.5 h-3.5 group-disabled:hidden">
                       <ChevronRight
                         className={cn(
                           "absolute h-3.5 w-3.5 shrink-0 text-muted-foreground stroke-2 transition-all duration-300 ease-out",
@@ -76,9 +79,11 @@ export default function WorkSection() {
               </div>
             </div>
           </AccordionTrigger>
-          <AccordionContent className="p-0 ml-13 text-xs sm:text-sm text-muted-foreground whitespace-pre-line">
-            {work.description}
-          </AccordionContent>
+          {work.description && (
+            <AccordionContent className="p-0 ml-13 text-xs sm:text-sm text-muted-foreground whitespace-pre-line">
+              {work.description}
+            </AccordionContent>
+          )}
         </AccordionItem>
       ))}
     </Accordion>

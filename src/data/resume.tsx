@@ -11,7 +11,7 @@ import { Docker } from "@/components/ui/svgs/docker";
 export const DATA = {
   name: "Apostolos Kakarantzas",
   initials: "AK",
-  url: "https://aeva.ae",
+  url: "https://akakarantzas.com",
   location: "Athens, Greece",
   locationLink: "https://www.google.com/maps/place/Athens,+Greece",
   description: "Builder.",
