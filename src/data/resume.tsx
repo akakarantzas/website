@@ -261,6 +261,16 @@ export const DATA = {
   ],
   hackathons: [
     {
+      title: "Gen AI Summit Hackathon",
+      dates: "Nov 2026",
+      location: "On-site",
+      description:
+        "Selected as one of 100 builders for a 36-hour hackathon on the agentic frontier at the Athens LifeTech Park, with an €8,500 prize pool.",
+      image: "/gen-ai-summit-logo.png",
+      featuredImage: "/gen-ai-summit.webp",
+      links: [],
+    },
+    {
       title: "3rd Place, Florent Venture Partners x Panathēnea Hackathon",
       dates: "May 2026 - Jun 2026",
       location: "On-site",
