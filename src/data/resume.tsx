@@ -175,6 +175,53 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Patina",
+      href: "https://github.com/akakarantzas/patina-kv",
+      dates: "Updated Nov 3, 2026",
+      active: true,
+      description:
+        "Key-value storage engine in Rust (WAL, memtable, SSTables, compaction, range scans), embedded in a Java 25 Spring Boot service via the FFM API, the way Kafka Streams embeds RocksDB.",
+      technologies: [
+        "Rust",
+        "Java",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/akakarantzas/patina-kv",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/patina-kv.webp",
+      video: "",
+    },
+    {
+      title: "Galithin REST API",
+      href: "https://github.com/akakarantzas/galithin-rest-api",
+      dates: "Updated Oct 30, 2026",
+      active: true,
+      description:
+        "Kotlin/Ktor REST API powering the player stats and Hall of Fame on galithin.com.",
+      technologies: [
+        "Kotlin",
+        "Java",
+        "Ktor",
+        "H2",
+        "MariaDB",
+        "Prometheus",
+        "Testcontainers",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/akakarantzas/galithin-rest-api",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/galithin.webp",
+      video: "",
+    },
+    {
       title: "ChicaneAI",
       href: "https://github.com/akakarantzas/chicane-ai",
       dates: "Updated Oct 14, 2026",
