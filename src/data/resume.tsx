@@ -105,7 +105,7 @@ export const DATA = {
       start: "Apr 2026",
       end: "Present",
       description:
-        "Conducting research at the Artificial Intelligence Lab, supervised by Dr. Ioannis Christou.\nProjects include multilingual streaming ASR with NVIDIA Nemotron 3.5 (fine-tuning, latency benchmarking, and GPU profiling on DGX Spark), combinatorial optimization for VLSI macro placement and AI applications in domain-specific systems.",
+        "Conducting research at the Artificial Intelligence Laboratory, supervised by Dr. Ioannis Christou.\nProjects include Speech AI Streaming ASR with NVIDIA Nemotron 3.5 (fine-tuning, latency benchmarking, and GPU profiling on DGX Spark), combinatorial optimization for VLSI macro placement and AI applications in domain-specific systems.",
     },
     {
       company: "Viohalco",
@@ -116,8 +116,7 @@ export const DATA = {
       logoUrl: "/viohalco.webp",
       start: "Oct 2025",
       end: "Nov 2025",
-      description:
-        "• Implemented Python REST API integrations with automated tests and structured logging for 50+ devices\n• Wrote and optimized SQL queries for logging pipelines, reducing troubleshooting time by ~30%\n• Automated user provisioning and device management across 30+ devices using PowerShell, Microsoft Azure and Intune, reducing manual provisioning time by 40%",
+      description: "",
     },
     {
       company: "Pensatori Irrazionali",
