@@ -317,7 +317,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/deadlift_logo.png",
+      image: "/deadlift-logo.png",
       video: "",
     },
   ],
