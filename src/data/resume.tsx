@@ -276,7 +276,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/hrt-x-partcl.png",
+      image: "/hrt-x-partcl-logo.png",
       video: "",
     },
     {
