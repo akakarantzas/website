@@ -299,7 +299,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/claude-code-counter-black-banner.png",
+      image: "/claude-code-counter.png",
       video: "",
     },
     {
