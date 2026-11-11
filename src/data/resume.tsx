@@ -153,6 +153,22 @@ export const DATA = {
         "Built and scaled a YouTube channel to 12K+ subscribers and 1M+ views, maintained a multi-year partnership with SteelSeries Greece.",
     },
   ],
+  // Files in /public/photos, shown in the scrolling carousel above Contact.
+  photos: [
+    "/photos/photo-01.jpg",
+    "/photos/photo-12.jpg",
+    "/photos/photo-02.jpg",
+    "/photos/photo-08.jpg",
+    "/photos/photo-04.jpg",
+    "/photos/photo-05.jpg",
+    "/photos/photo-11.jpg",
+    "/photos/photo-06.jpg",
+    "/photos/photo-13.jpg",
+    "/photos/photo-09.jpg",
+    "/photos/photo-03.jpg",
+    "/photos/photo-14.jpg",
+    "/photos/photo-10.jpg",
+  ] as string[],
   education: [
     {
       school: "The American College of Greece",

@@ -267,6 +267,58 @@
   .tech-stack-marquee:hover .tech-stack-marquee-track {
     animation-play-state: paused;
   }
+
+  .photo-carousel {
+    overflow: hidden;
+    padding: 1.5rem 0;
+  }
+
+  .photo-carousel-track {
+    display: flex;
+    width: max-content;
+    gap: 0.75rem;
+    animation: photo-carousel-scroll 30s linear infinite;
+  }
+
+  .photo-carousel-track:hover {
+    animation-play-state: paused;
+  }
+
+  .photo-carousel-track img {
+    height: 260px;
+    width: auto;
+    object-fit: cover;
+    border-radius: 6px;
+    flex-shrink: 0;
+    image-orientation: from-image;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  @media (max-width: 640px) {
+    .photo-carousel-track {
+      gap: 0.5rem;
+    }
+
+    .photo-carousel-track img {
+      height: 180px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .photo-carousel-track {
+      animation: none;
+    }
+  }
+}
+
+@keyframes photo-carousel-scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 @keyframes tech-stack-scroll {

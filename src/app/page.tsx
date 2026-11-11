@@ -11,6 +11,7 @@ import ProjectsSection from "@/components/section/projects-section";
 import WorkSection from "@/components/section/work-section";
 import SectionsMap from "@/components/section/sections-map";
 import TechStackSection from "@/components/section/tech-stack-section";
+import PhotoCarousel from "@/components/section/photo-carousel";
 import { ArrowUpRight } from "lucide-react";
 
 const BLUR_FADE_DELAY = 0.04;
@@ -133,6 +134,9 @@ export default function Page() {
           <ProjectsSection />
         </BlurFade>
       </section>
+      <BlurFade delay={BLUR_FADE_DELAY * 15}>
+        <PhotoCarousel />
+      </BlurFade>
       <section id="contact">
         <BlurFade delay={BLUR_FADE_DELAY * 16}>
           <ContactSection />
