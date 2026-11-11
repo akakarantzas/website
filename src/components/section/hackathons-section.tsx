@@ -21,7 +21,6 @@ export default function HackathonsSection() {
             <p className="text-muted-foreground md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed text-balance text-center">
               I use competitions and hackathons to build fast, test ideas under
               pressure, and turn technical constraints into working systems.
-              Here are {DATA.hackathons.length} selected builds.
             </p>
           </div>
         </div>

@@ -16,7 +16,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/Athens,+Greece",
   description: "Builder.",
   summary:
-    "I'm a Greek-Australian Homo sapiens trying to make machines a little smarter.\n\nI've always been drawn to building things: businesses, communities, and now intelligent systems. At 14, that curiosity became my first business: a skateboard griptape brand where I imported products directly from manufacturing companies in Hong Kong and handled the core parts of running a small company before finishing school.\n\nA year later, I moved into content creation. From 15 to 18, I grew a YouTube channel to 12K+ subscribers and over 1M views, built an audience of 40K+ followers across social platforms, and livestreamed daily to hundreds of viewers. Along the way, I met Themis “Reit” Chrysafidis and became a founding member of Aeva, a Dubai-based group of companies focused on creativity, technology, and cultural innovation.\n\nEventually, the same builder’s mindset led me to AI. Today, I'm focused on designing and implementing software systems spanning backend development, data pipelines, algorithmic optimization, and applied AI, with an emphasis on performance, reliability, and computational efficiency.\n\nHong Kong first entered my life through business. Now, through my Summer 2026 study abroad program at Hong Kong Baptist University, it has become part of my academic and personal journey too. I'm excited to experience the city from the inside: its culture, its people, and the innovation ecosystem that first caught my attention from thousands of kilometres away.\n\nDifferent chapters, same pattern: curiosity, execution, and a need to create something meaningful.\n\nWhen I'm not coding, you'll find me golfing, playing tennis, or watching F1.",
+    "I'm a Greek-Australian Homo sapiens trying to make machines a little smarter.\n\nI've always been drawn to building things: businesses, communities, and now intelligent systems. At 14, that curiosity became my first business: a skateboard griptape brand where I imported products directly from manufacturing companies in Hong Kong and handled the core parts of running a small company before finishing school.\n\nA year later, I moved into content creation. From 15 to 18, I grew a YouTube channel to 12K+ subscribers and over 1M views, built an audience of 40K+ followers across social platforms, and livestreamed daily to hundreds of viewers. Along the way, I met Themis “Reit” Chrysafidis and became a co-founder of Aeva, a Dubai-based group of companies focused on creativity, technology, and cultural innovation.\n\nEventually, the same builder’s mindset led me to AI. Today, I'm focused on designing and implementing software systems spanning backend development, data pipelines, algorithmic optimization, and applied AI, with an emphasis on performance, reliability, and computational efficiency.\n\nHong Kong first entered my life through business. Now, through my Summer 2026 study abroad program at Hong Kong Baptist University, it has become part of my academic and personal journey too. I'm excited to experience the city from the inside: its culture, its people, and the innovation ecosystem that first caught my attention from thousands of kilometres away.\n\nDifferent chapters, same pattern: curiosity, execution, and a need to create something meaningful.\n\nWhen I'm not coding, you'll find me golfing, playing tennis, or watching F1.",
   avatarUrl: "/me.jpg",
   skills: [
     { name: "Python", icon: Python },
@@ -105,7 +105,7 @@ export const DATA = {
       start: "Apr 2026",
       end: "Present",
       description:
-        "Conducting research at the Artificial Intelligence Laboratory, supervised by Dr. Ioannis Christou.\nProjects include Speech AI Streaming ASR with NVIDIA Nemotron 3.5 (fine-tuning, latency benchmarking, and GPU profiling on DGX Spark), combinatorial optimization for VLSI macro placement and AI applications in domain-specific systems.",
+        "Speech AI",
     },
     {
       company: "Viohalco",
@@ -176,7 +176,7 @@ export const DATA = {
     {
       title: "Patina",
       href: "https://github.com/akakarantzas/patina-kv",
-      dates: "Updated Nov 3, 2026",
+      dates: "Updated Nov 4, 2026",
       active: true,
       description:
         "Key-value storage engine in Rust (WAL, memtable, SSTables, compaction, range scans), embedded in a Java 25 Spring Boot service via the FFM API, the way Kafka Streams embeds RocksDB.",
