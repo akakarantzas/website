@@ -374,7 +374,7 @@ export const DATA = {
       location: "On-site",
       description:
         "Created an analytics platform for land viability analysis using satellite data, infrastructure signals, and macroeconomic risk factors.",
-      image: "/uniai.jfif",
+      image: "/uni-ai-makeathon.png",
       links: [
         {
           title: "Source",
