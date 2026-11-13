@@ -11,6 +11,7 @@ import { Typescript } from "@/components/ui/svgs/typescript";
 import {
   Aws,
   Azure,
+  Git,
   Cplusplus,
   Fastapi,
   Javascript,
@@ -30,7 +31,6 @@ import {
 import { cn } from "@/lib/utils";
 import {
   ChevronDown,
-  GitBranch,
 } from "lucide-react";
 import { useState } from "react";
 import type { ComponentType, SVGProps } from "react";
@@ -73,7 +73,7 @@ const categories: Array<{
       { name: "FastAPI", icon: Fastapi },
       { name: "Node.js", icon: Nodejs },
       { name: "Docker", icon: Docker },
-      { name: "Git", icon: GitBranch },
+      { name: "Git", icon: Git },
       { name: "PostgreSQL", icon: Postgresql },
       { name: "Redis", icon: Redis },
       { name: "AWS", icon: Aws },
