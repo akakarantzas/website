@@ -176,7 +176,7 @@ export default function SectionsMap() {
               viewBox="0 0 520 320"
               role="img"
               aria-label="Clickable map of portfolio sections"
-              className="absolute inset-0 h-full w-full touch-none cursor-grab active:cursor-grabbing"
+              className="absolute inset-0 h-full w-full touch-none cursor-default active:cursor-move"
               onPointerDown={handlePointerDown}
               onPointerMove={handlePointerMove}
               onPointerUp={handlePointerUp}
