@@ -258,7 +258,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/chicane.png",
+      image: "/chicane.webp",
       video: "",
     },
     {
@@ -276,7 +276,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/hrt-x-partcl-logo.png",
+      image: "/hrt-x-partcl-logo.webp",
       video: "",
     },
     {
@@ -299,7 +299,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/claude-code-counter.png",
+      image: "/claude-code-counter.webp",
       video: "",
     },
     {
@@ -317,7 +317,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/deadlift-logo.png",
+      image: "/deadlift-logo.webp",
       video: "",
     },
   ],
@@ -328,7 +328,7 @@ export const DATA = {
       location: "On-site",
       description:
         "Selected as one of 100 builders for a 36-hour hackathon on the agentic frontier at the Athens LifeTech Park, with an €8,500 prize pool.",
-      image: "/gen-ai-summit-logo.png",
+      image: "/gen-ai-summit-logo.webp",
       featuredImage: "/gen-ai-summit.webp",
       links: [],
     },
@@ -358,7 +358,7 @@ export const DATA = {
       location: "Remote",
       description:
         "Built macro-placement optimization submissions using spectral initialization, simulated annealing, soft-overlap legalization, and numerical optimization techniques.",
-      image: "/hrt-partcl-logo.png",
+      image: "/hrt-partcl-logo.webp",
       featuredImage: "/hrt.jpg",
       links: [
         {
@@ -374,7 +374,7 @@ export const DATA = {
       location: "On-site",
       description:
         "Created an analytics platform for land viability analysis using satellite data, infrastructure signals, and macroeconomic risk factors.",
-      image: "/uni-ai-makeathon.png",
+      image: "/uni-ai-makeathon.webp",
       links: [
         {
           title: "Source",
